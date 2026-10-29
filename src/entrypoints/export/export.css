@@ -1,0 +1,18 @@
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.page > header {
+  margin-bottom: 16px;
+}
+
+section.card h2 {
+  margin-bottom: 10px;
+}
+
+.problems {
+  max-height: 320px;
+  overflow: auto;
+}

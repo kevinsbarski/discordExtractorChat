@@ -1,0 +1,12 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // Regex capture groups and length-checked array reads are used throughout;
+    // they are guarded explicitly instead.
+    "noUncheckedIndexedAccess": false,
+    "types": ["vite/client"]
+  }
+}
